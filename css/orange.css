@@ -115,10 +115,10 @@ h6 {
       -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
       -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
       transition: padding-top 0.3s, padding-bottom 0.3s;
-      background-color: DarkOrange; }
+      background-color: #FF7900; }
       #mainNav.navbar-shrink {
         padding: 5px 0;
-        background-color: #222; }
+        background-color: #708090; }
       #mainNav .navbar-brand {
         font-size: 26px;
         line-height: 50px; }
@@ -161,10 +161,11 @@ header.masthead {
     font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 900;
     text-transform: uppercase;
-    color: DarkOrange;}
+    color: #FF7900;}
   header.masthead .masthead-subtitle {
     font-size: 1.5rem;
     line-height: 1.5rem; }
+
   header.masthead .scroll-down {
     position: absolute;
     bottom: 20px;
@@ -202,7 +203,7 @@ header.masthead {
       header.masthead .masthead-subtitle {
         font-size: 2rem;
         line-height: 2rem;
-        color: DarkOrange; } }
+        color: #FF7900; } }
 
 header.video {
   background: transparent; }
