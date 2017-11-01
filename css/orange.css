@@ -164,7 +164,8 @@ header.masthead {
     color: #FF7900;}
   header.masthead .masthead-subtitle {
     font-size: 1.5rem;
-    line-height: 1.5rem; }
+    line-height: 1.5rem;
+     }
 
   header.masthead .scroll-down {
     position: absolute;
@@ -275,6 +276,9 @@ header.video {
   background-attachment: scroll;
   font-size: 75px;
   font-weight: 300;}
+  span.highlight{
+    text-shadow: 1px 1px 2px ivory, 0 0 30px ivory, 0 0 20px ivory, 0 0 10px ivory, 0 0 40px ivory;
+  }
   @media (min-width: 1024px) {
     .call-to-action {
       background-attachment: fixed; } }
@@ -636,7 +640,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e1e1e1; }
 
 footer.footer {
-  padding: 100px 0;
+  padding: 200px 0 200px;
   color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -651,16 +655,23 @@ footer.footer {
       background-attachment: scroll; } }
   footer.footer a {
     color: rgba(255, 255, 255, 0.7); }
+    footer.footer h4 {
+      text-shadow: 2px 2px 5px black, 0 0 20px black, 0 0 10px black;
+    }
     footer.footer a:hover {
       color: orange; }
   footer.footer p {
     font-size: 22px; }
   footer.footer .footer-contact-details {
-    margin: 75px 0; }
+    margin: 75px 0;
+    text-shadow: 2px 2px 5px black, 0 0 20px black, 0 0 10px black;
+  }
   footer.footer .footer-social {
-    margin-bottom: 75px; }
+    margin-bottom: 75px;
+    text-shadow: 2px 2px 5px black, 0 0 20px black, 0 0 10px black;}
   footer.footer .copyright {
-    font-size: 1rem; }
+    font-size: 1rem;
+    text-shadow: 2px 2px 5px black, 0 0 20px black, 0 0 10px black;}
 
 .btn {
   font-weight: 900;
