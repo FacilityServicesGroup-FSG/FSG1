@@ -236,12 +236,12 @@ header.video {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .5;
+    opacity: 0;
     background-color: #222; }
   .team-carousel .item .team-caption {
     position: absolute;
     z-index: 2;
-    top: 50%;
+    top: 90%;
     left: 50%;
     width: 100%;
     margin: auto;
@@ -249,7 +249,7 @@ header.video {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    color: rgba(255, 255, 255, 0.7); }
+    color: rgba(255, 255, 255, 1); }
     .team-carousel .item .team-caption h3 {
       margin: 0; }
     .team-carousel .item .team-caption hr {
